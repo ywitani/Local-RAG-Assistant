@@ -1,0 +1,11 @@
+Summer School Local RAG Demo
+
+This project demonstrates a simple local question-answering assistant. The assistant reads documents stored in the knowledge_base folder and answers questions about them.
+
+The main goal is to show the complete RAG pipeline: loading documents, splitting text into chunks, generating embeddings, retrieving relevant chunks, and producing a grounded answer.
+
+A good demo question is: What is the goal of this project?
+
+Another good demo question is: Why does the project use embeddings?
+
+If the documents do not contain the answer, the assistant should say that there is not enough information in the local documents.
