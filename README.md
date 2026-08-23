@@ -26,20 +26,16 @@ The assistant reads local documents from the `knowledge_base` folder, retrieves 
 
 ```text
 Local-RAG-Assistant/
-├── main.py
-├── rag_engine.py
-├── requirements.txt
-├── README.md
-├── knowledge_base/
-│   ├── foundry_local_notes.txt
-│   └── summer_school_project.txt
-├── presentation/
-│   ├── Local_RAG_Presentation.pptx
-│   └── presentation_script.md
-└── screenshots/
-    └── demo_transcript.txt
+- main.py
+- rag_engine.py
+- requirements.txt
+- README.md
+- Local_RAG_Presentation.pptx
+- demo_terminal_screenshot.png
+- knowledge_base/
+- foundry_local_notes.txt
+- summer_school_project.txt
 ```
-
 ## Setup
 
 Create a virtual environment:
@@ -69,6 +65,8 @@ python main.py
 
 The first run may download the local embedding and chat models.
 
+This downloads `qwen2.5-0.5b` and `qwen3-embedding-0.6b` and can take a few minutes depending on your connection.
+
 ## Quick demo mode
 
 If you only want to test the app structure without downloading models, run:
@@ -79,12 +77,16 @@ python main.py --demo
 
 Demo mode does not use the local LLM, but it shows the same document loading and retrieval flow.
 
+## Demo
+
+![Demo](demo_terminal_screenshot.png)
+
 ## Presentation
 
 The presentation file is included in:
 
 ```text
-presentation/Local_RAG_Presentation.pptx
+Local_RAG_Presentation.pptx
 ```
 
 
