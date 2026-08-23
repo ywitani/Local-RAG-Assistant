@@ -79,14 +79,6 @@ python main.py --demo
 
 Demo mode does not use the local LLM, but it shows the same document loading and retrieval flow.
 
-## Example questions
-
-```text
-What is the goal of this project?
-Why does the project use embeddings?
-What is cosine similarity used for?
-```
-
 ## Presentation
 
 The presentation file is included in:
@@ -95,15 +87,10 @@ The presentation file is included in:
 presentation/Local_RAG_Presentation.pptx
 ```
 
-The speaking script is included in:
-
-```text
-presentation/presentation_script.md
-```
 
 ## Author
 
-Shahd Srour  
-University of Reading  
-Accounting & Finance  
+Yazan Itani 
+Eastern Mediterranean University 
+Artificial Intelligence Engineering  
 Microsoft Summer School Project
