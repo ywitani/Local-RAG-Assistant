@@ -1,5 +1,7 @@
 # Local RAG Assistant using Microsoft Foundry Local
 
+# 🎥 [Watch the Presentation](https://youtu.be/8_GsRk6AkJ0)
+
 ## Project overview
 
 This project is a simple Retrieval-Augmented Generation (RAG) application built for the Microsoft Summer School Foundry Local project.
